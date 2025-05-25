@@ -1,7 +1,0 @@
-/Users/yvonne/Library/Android/sdk/cmake/3.22.1/bin/ninja \
-  -C \
-  /Users/yvonne/Desktop/Workspace/hoppersburrow-app/android/app/.cxx/RelWithDebInfo/5z491w5t/x86 \
-  appmodules \
-  react_codegen_rnpicker \
-  react_codegen_rnscreens \
-  react_codegen_safeareacontext

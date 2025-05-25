@@ -1,3 +1,0 @@
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/yvonne/Desktop/Workspace/hoppersburrow-app/android/app/.cxx/RelWithDebInfo/5z491w5t/x86

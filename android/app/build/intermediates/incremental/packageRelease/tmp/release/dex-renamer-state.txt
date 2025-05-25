@@ -1,7 +1,0 @@
-#Thu May 22 12:05:47 MYT 2025
-base.1=/Users/yvonne/Desktop/Workspace/hoppersburrow-app/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
-path.1=classes2.dex
-base.0=/Users/yvonne/Desktop/Workspace/hoppersburrow-app/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
-path.0=classes.dex
