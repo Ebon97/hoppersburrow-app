@@ -5,7 +5,7 @@ import COLORS from '../constants/color';
 
 const tabs = [
   { label: 'Home', icon: 'home' },
-  { label: 'Bookings', icon: 'shopping-bag' },
+  { label: 'Rentals', icon: 'shopping-bag' },
   { label: 'Transactions', icon: 'credit-card' },
   { label: 'Account', icon: 'user' },
 ];
@@ -65,8 +65,8 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: -2 },
     shadowRadius: 10,
     elevation: 12,
-    position: 'absolute',          // <== Important
-    bottom: 20,                    // <== Float above bottom
+    position: 'absolute',
+    bottom: 20,
     left: 0,
     right: 0,
   },
