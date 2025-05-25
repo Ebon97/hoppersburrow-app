@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "com.hoppersburrow.app-release-44:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.hoppersburrow.app-main-45:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.hoppersburrow.app-main-45:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_locations_sibu.jpg.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_locations_sibu.jpg"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_onboarding_intro1.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_onboarding_intro1.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.hoppersburrow.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_icons_room_single.jpg.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_icons_room_single.jpg"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_onboarding_welcome.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_onboarding_welcome.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_locations_miri.jpg.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_locations_miri.jpg"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xhdpi_node_modules_reactnavigation_elements_lib_module_assets_backicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xhdpi/node_modules_reactnavigation_elements_lib_module_assets_backicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.hoppersburrow.app-main-45:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.hoppersburrow.app-main-45:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.hoppersburrow.app-main-45:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_locations_bintulu.jpg.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_locations_bintulu.jpg"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xxhdpi_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xxhdpi/node_modules_reactnavigation_elements_lib_module_assets_closeicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_onboarding_permission.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_onboarding_permission.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xxhdpi_node_modules_reactnavigation_elements_lib_module_assets_backicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xxhdpi/node_modules_reactnavigation_elements_lib_module_assets_backicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_onboarding_sign_up.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_onboarding_sign_up.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/node_modules_reactnavigation_elements_lib_module_assets_clearicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xxxhdpi_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xxxhdpi/node_modules_reactnavigation_elements_lib_module_assets_searchicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_node_modules_reactnavigation_elements_lib_module_assets_backiconmask.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/node_modules_reactnavigation_elements_lib_module_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xxxhdpi_node_modules_reactnavigation_elements_lib_module_assets_backicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xxxhdpi/node_modules_reactnavigation_elements_lib_module_assets_backicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_icons_owner.jpg.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_icons_owner.jpg"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_onboarding_intro3.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_onboarding_intro3.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/node_modules_reactnavigation_elements_lib_module_assets_searchicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.hoppersburrow.app-main-45:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xxhdpi_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xxhdpi/node_modules_reactnavigation_elements_lib_module_assets_clearicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xhdpi_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xhdpi/node_modules_reactnavigation_elements_lib_module_assets_closeicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_icons_payments.jpg.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_icons_payments.jpg"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xxhdpi_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xxhdpi/node_modules_reactnavigation_elements_lib_module_assets_searchicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/node_modules_reactnavigation_elements_lib_module_assets_closeicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.hoppersburrow.app-main-45:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_node_modules_reactnavigation_elements_lib_module_assets_backicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/node_modules_reactnavigation_elements_lib_module_assets_backicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_onboarding_intro2.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_onboarding_intro2.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xxxhdpi_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xxxhdpi/node_modules_reactnavigation_elements_lib_module_assets_clearicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xhdpi_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xhdpi/node_modules_reactnavigation_elements_lib_module_assets_searchicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.hoppersburrow.app-main-45:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.hoppersburrow.app-main-45:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_room.jpg.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_room.jpg"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.hoppersburrow.app-main-45:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xhdpi_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xhdpi/node_modules_reactnavigation_elements_lib_module_assets_clearicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_icons_feedback.jpg.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_icons_feedback.jpg"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-xxxhdpi_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-xxxhdpi/node_modules_reactnavigation_elements_lib_module_assets_closeicon.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_logo.png.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_logo.png"
+    },
+    {
+        "merged": "com.hoppersburrow.app-release-44:/drawable-mdpi_assets_icons_booking.jpg.flat",
+        "source": "com.hoppersburrow.app-res-39:/drawable-mdpi/assets_icons_booking.jpg"
+    }
+]

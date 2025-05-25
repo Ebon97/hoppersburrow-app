@@ -429,6 +429,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>react-native-maps.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>react-native-pager-view.xcscheme</key>
 		<dict>
 			<key>isShown</key>

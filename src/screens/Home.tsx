@@ -13,13 +13,13 @@ import { useNavigation } from '@react-navigation/native';
 
 import COLORS from '../constants/color';
 import NavigationBar from '../components/NavigationBar';
-import AccomodationCard from '../components/AccomodationCard';
+import AccommodationCard from '../components/AccommodationCard';
 import LocationCard from '../components//LocationCard';
 import Icon from 'react-native-vector-icons/Feather';
 
 const HomeScreen = () => {
   const navigation = useNavigation();
-  const accomodations = [
+  const accommodations = [
     {
       id: 1,
       image: require('../../assets/room.jpg'),
@@ -138,23 +138,24 @@ const HomeScreen = () => {
 
 
         <View style={styles.sectionHeader}>
-          <Text style={styles.sectionTitle}>Nearby Accomodations</Text>
-          <TouchableOpacity onPress={() => navigation.navigate('AccomodationListing')}>
+          <Text style={styles.sectionTitle}>Nearby Accommodations</Text>
+          <TouchableOpacity onPress={() => navigation.navigate('AccommodationListing')}>
             <Text style={styles.seeMore}>See more</Text>
           </TouchableOpacity>
         </View>
 
-        {accomodations.map((item) => (
-          <AccomodationCard
+        {accommodations.map((item) => (
+          <AccommodationCard
             key={item.id}
             image={item.image}
             title={item.title}
             location={item.location}
             price={item.price}
+            onPress={() => navigation.navigate('AccommodationDetails', { id: item.id })}
           />
         ))}
 
-        <Text style={[styles.sectionTitle, { marginTop: 18 }]}>Explore More Accomodations</Text>
+        <Text style={[styles.sectionTitle, { marginTop: 18 }]}>Explore More Accommodations</Text>
 
         <ScrollView
           horizontal
@@ -166,7 +167,6 @@ const HomeScreen = () => {
           <LocationCard label="SIBU" image={require('../../assets/locations/sibu.jpg')} />
         </ScrollView>
       </ScrollView>
-
       <NavigationBar />
     </SafeAreaView>
   );
@@ -336,6 +336,6 @@ const styles = StyleSheet.create({
   locationScrollContainer: {
     paddingVertical: 18,
     paddingRight: 12,
-    marginBottom: 30,
+    marginBottom: 90,
   },
 });

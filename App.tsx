@@ -10,7 +10,8 @@ import SignUpScreen from './src/screens/auth/SignUpScreen';
 import LoginScreen from './src/screens/auth/LoginScreen';
 
 import Home from './src/screens/Home';
-import AccomodationListing from './src/screens/accomodation/AccomodationListing';
+import AccommodationListing from './src/screens/accommodation/AccommodationListing';
+import AccommodationDetails from './src/screens/accommodation/AccommodationDetails';
 
 const Stack = createNativeStackNavigator();
 
@@ -27,10 +28,11 @@ const App = () => {
 
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen
-          name="AccomodationListing"
-          component={AccomodationListing}
+          name="AccommodationListing"
+          component={AccommodationListing}
           options={{ headerShown: false }} // or true if you want a header
         />
+        <Stack.Screen name="AccommodationDetails" component={AccommodationDetails} />
       </Stack.Navigator>
     </NavigationContainer>
   );
