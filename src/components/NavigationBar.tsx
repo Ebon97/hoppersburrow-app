@@ -1,27 +1,30 @@
 import React, { useState } from 'react';
 import { View, TouchableOpacity, Text, StyleSheet } from 'react-native';
+import { useNavigation, useRoute } from '@react-navigation/native';
+
 import Icon from 'react-native-vector-icons/Feather';
 import COLORS from '../constants/color';
 
 const tabs = [
-  { label: 'Home', icon: 'home' },
-  { label: 'Rentals', icon: 'shopping-bag' },
-  { label: 'Transactions', icon: 'credit-card' },
-  { label: 'Account', icon: 'user' },
+  { label: 'Home', icon: 'home', screen: 'Home' },
+  { label: 'Rentals', icon: 'shopping-bag', screen: 'RentalListing' },
+  { label: 'Transactions', icon: 'credit-card', screen: 'TransactionScreen' },
+  { label: 'Account', icon: 'user', screen: 'AccountScreen' },
 ];
 
 const NavigationBar = () => {
-  const [activeTab, setActiveTab] = useState('Home');
+  const navigation = useNavigation();
+  const route = useRoute();
 
   return (
     <View style={styles.container}>
       {tabs.map((tab) => {
-        const isActive = tab.label === activeTab;
+        const isActive = route.name === tab.screen;
         return (
           <TouchableOpacity
             key={tab.label}
             style={styles.navItem}
-            onPress={() => setActiveTab(tab.label)}
+            onPress={() => navigation.navigate(tab.screen)}
           >
             <Icon
               name={tab.icon}
@@ -58,7 +61,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingTop: 16,
     paddingBottom: 16,
-    backgroundColor: '#fff', // <== Transparent white
+    backgroundColor: '#fff',
     borderRadius: 50,
     shadowColor: '#000',
     shadowOpacity: 0.1,

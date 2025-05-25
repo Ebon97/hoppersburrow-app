@@ -299,7 +299,6 @@ const AccommodationDetails = () => {
         </View>
       </ScrollView>
 
-      {/* ✅ Bottom Navigation */}
       <NavigationBar />
     </View>
   );

@@ -2,15 +2,27 @@ import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import COLORS from '../constants/color';
 
-const AccommodationCard = ({ image, title, location, price, onPress }) => {
+const AccommodationCard = ({
+  image,
+  title,
+  address,
+  price,
+  dateRange,
+  nextBillDate,
+  onPress,
+}) => {
   return (
     <TouchableOpacity style={styles.card} onPress={onPress}>
       <Image source={image} style={styles.image} />
       <View style={styles.content}>
         <Text style={styles.title}>{title}</Text>
-        <Text style={styles.location}>{location}</Text>
+        <Text style={styles.location}>{address}</Text>
+        {dateRange ? <Text style={styles.dateRange}>{dateRange}</Text> : null}
+        {nextBillDate ? (
+          <Text style={styles.nextBill}>Next Bill Date: {nextBillDate}</Text>
+        ) : null}
         <Text style={styles.price}>
-          RM {price}  <Text style={styles.perMonth}>/ per month</Text>
+          RM {price} <Text style={styles.perMonth}>/ per month</Text>
         </Text>
       </View>
     </TouchableOpacity>
@@ -57,4 +69,16 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#666',
   },
-});
+  dateRange: {
+    fontFamily: 'Montserrat-Regular',
+    fontSize: 12,
+    color: '#444',
+    marginBottom: 2,
+  },
+  nextBill: {
+    fontFamily: 'Montserrat-Regular',
+    fontSize: 12,
+    color: '#666',
+    marginBottom: 6,
+  },
+  });

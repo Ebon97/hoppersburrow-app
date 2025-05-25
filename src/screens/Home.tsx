@@ -24,21 +24,21 @@ const HomeScreen = () => {
       id: 1,
       image: require('../../assets/room.jpg'),
       title: 'Sunrise Studio Room',
-      location: '111, Road Kuching 93600, Kuching, Sarawak, Malaysia',
+      address: '111, Road Kuching 93600, Kuching, Sarawak, Malaysia',
       price: 900,
     },
     {
       id: 2,
       image: require('../../assets/room.jpg'),
       title: 'Hillside Cozy Suite',
-      location: '45, Jalan Bukit, 93350, Kuching, Sarawak',
+      address: '45, Jalan Bukit, 93350, Kuching, Sarawak',
       price: 1050,
     },
     {
       id: 3,
       image: require('../../assets/room.jpg'),
       title: 'Urban Edge Loft',
-      location: '23A, Cityview Ave, 93100, Kuching',
+      address: '23A, Cityview Ave, 93100, Kuching',
       price: 880,
     },
   ];
@@ -65,7 +65,10 @@ const HomeScreen = () => {
 
         {/* First Row - 2 Buttons */}
         <View style={styles.row}>
-          <TouchableOpacity style={[styles.featureButton, { backgroundColor: '#ACE5FF' }]}>
+          <TouchableOpacity
+            style={[styles.featureButton, { backgroundColor: '#ACE5FF' }]}
+            onPress={() => navigation.navigate('AccommodationListing', { animate: true })}
+          >
             <View style={styles.featureContent}>
               <View style={styles.featureTextWrapper}>
                 <Text style={styles.featureTextLeft}>Find a Room{'\n'}For Rent</Text>
@@ -95,7 +98,10 @@ const HomeScreen = () => {
 
         {/* Second Row - 3 Buttons */}
         <View style={styles.row}>
-          <TouchableOpacity style={[styles.featureButtonThird, { backgroundColor: '#EDF7FF' }]}>
+          <TouchableOpacity
+            style={[styles.featureButtonThird, { backgroundColor: '#EDF7FF' }]}
+            onPress={() => navigation.navigate('RentalListing')}
+          >
             <View style={styles.featureContent}>
               <View style={styles.featureTextWrapperSecond}>
                 <Text style={styles.featureTextLeft}>My Room</Text>
@@ -149,7 +155,7 @@ const HomeScreen = () => {
             key={item.id}
             image={item.image}
             title={item.title}
-            location={item.location}
+            address={item.address}
             price={item.price}
             onPress={() => navigation.navigate('AccommodationDetails', { id: item.id })}
           />

@@ -19,6 +19,8 @@ import { Picker } from '@react-native-picker/picker';
 import RNPickerSelect from 'react-native-picker-select';
 import Icon from 'react-native-vector-icons/Feather';
 import AccommodationCard from '../../components/AccommodationCard';
+import NavigationBar from '../../components/NavigationBar';
+import BackHeader from '../../components/BackHeader';
 
 const PropertyListingScreen = () => {
   const navigation = useNavigation();
@@ -35,21 +37,21 @@ const PropertyListingScreen = () => {
       id: 1,
       image: require('../../../assets/room.jpg'),
       title: 'Sunrise Studio Room',
-      location: '111, Road Kuching 93600, Kuching, Sarawak, Malaysia',
+      address: '111, Road Kuching 93600, Kuching, Sarawak, Malaysia',
       price: 900,
     },
     {
       id: 2,
       image: require('../../../assets/room.jpg'),
       title: 'Hillside Cozy Suite',
-      location: '45, Jalan Bukit, 93350, Kuching, Sarawak',
+      address: '45, Jalan Bukit, 93350, Kuching, Sarawak',
       price: 1050,
     },
     {
       id: 3,
       image: require('../../../assets/room.jpg'),
       title: 'Urban Edge Loft',
-      location: '23A, Cityview Ave, 93100, Kuching',
+      address: '23A, Cityview Ave, 93100, Kuching',
       price: 880,
     },
   ];
@@ -61,13 +63,7 @@ const PropertyListingScreen = () => {
     <SafeAreaView style={styles.safeArea}>
       <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
         {/* Header */}
-        <View style={styles.header}>
-          <TouchableOpacity onPress={() => navigation.goBack()}>
-            <Icon name="arrow-left" size={22} color="#333" />
-          </TouchableOpacity>
-          <Text style={styles.headerTitle}>Search a Room</Text>
-          <View style={{ width: 24 }} /> {/* Placeholder for symmetry */}
-        </View>
+        <BackHeader title="Search a Room" />
 
         {/* Location Search */}
         <View style={styles.searchSection}>
@@ -107,12 +103,13 @@ const PropertyListingScreen = () => {
         </View>
 
         {accommodations.map((item) => (
-          <AccommodationCard
+         <AccommodationCard
             key={item.id}
             image={item.image}
             title={item.title}
-            location={item.location}
+            address={item.address}
             price={item.price}
+            onPress={() => navigation.navigate('AccommodationDetails', { id: item.id })}
           />
         ))}
       </ScrollView>
@@ -228,7 +225,6 @@ const PropertyListingScreen = () => {
           </View>
         </TouchableWithoutFeedback>
       </Modal>
-
     </SafeAreaView>
   );
 };
